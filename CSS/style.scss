@@ -1,0 +1,10 @@
+@import "cssReset";
+@import "common";
+@import "index";
+@import "course";
+@import "QA";
+
+html,
+body {
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,169 @@
+.courseHeader {
+	background-image: url(../image/bg_course.png);
+	position: relative;
+
+	&::before {
+		position: absolute;
+		content: "";
+		background-image: url(../image/html.png);
+		width: 94px;
+		height: 132px;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		top: 100px;
+		right: 150px;
+	}
+
+	&::after {
+		position: absolute;
+		content: "";
+		background-image: url(../image/CSS.png);
+		width: 94px;
+		height: 132px;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		top: 100px;
+		right: 50px;
+	}
+
+	.headerObject {
+		height: 484px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 50px;
+		padding-left: 30px;
+
+		p {
+			color: #FFFFFF;
+			font-size: 48px;
+			line-height: 0.8;
+
+			span {
+				color: #00CC99;
+				font-size: 24px;
+			}
+		}
+	}
+}
+
+@media (max-width: 800px) {
+	.courseHeader .headerObject p {
+		font-size: 32px;
+	}
+}
+
+@media (max-width: 480px) {
+
+	.courseHeader::before,
+	.courseHeader::after {
+		top: 130px;
+	}
+}
+
+@media (max-width: 400px) {
+
+	.courseHeader .headerObject p,
+	.courseHeader .headerObject p span {
+		font-size: 20px;
+		line-height: 1.5;
+	}
+}
+
+.courseMain {
+	max-width: 620px;
+	margin: 50px auto;
+	padding: 0 15px;
+
+	.introduce {
+		display: flex;
+		align-items: center;
+		gap: 36px;
+	}
+}
+
+@media (max-width: 530px) {
+	.courseMain {
+		.introduce {
+			flex-direction: column;
+		}
+
+		h1 {
+			text-align: center;
+		}
+	}
+}
+
+.courseMain {
+	.introduce {
+		.photo {
+			width: 155px;
+			height: 155px;
+			border-radius: 50%;
+			background-image: url(../image/teacher.png);
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+
+		h1 {
+			font-size: 36px;
+			font-family: PingFang TC;
+			line-height: 1.5;
+			color: #00CC99;
+
+			span {
+				color: #323228;
+
+			}
+		}
+
+		ul {
+			line-height: 1.5;
+			list-style-type: disc;
+			font-family: PingFang TC;
+		}
+	}
+
+	.content {
+		ol {
+			list-style-type: decimal;
+			padding-left: 20px;
+			line-height: 1.5;
+		}
+	}
+
+	.listStyle li {
+		height: 60px;
+		line-height: 60px;
+		text-indent: 30px;
+
+		&:nth-child(odd) {
+			background: #EBEBEB;
+		}
+	}
+}
+
+.courseForm a {
+	display: block;
+}
+
+@media (max-width: 700px) {
+	.courseForm {
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 420px) {
+	.courseForm {
+		.context p {
+			font-size: 20px;
+		}
+
+		a {
+			width: 60%;
+		}
+	}
+}
