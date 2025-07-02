@@ -21,28 +21,29 @@
 - **SCSS 模組化**：`_cssReset / _common / _index / _course / _QA` 等分離樣式，集中於 `style.scss`。
 
 ### 專案結構
-HexSchoolWebsite/
-├── index.html
-├── course.html
-├── QA.html
-├── CSS/
-│ ├── style.scss # 主要匯入點
-│ ├── _cssReset.scss # Reset
-│ ├── _common.scss # 共用元件
-│ ├── _index.scss # 首頁樣式
-│ ├── _course.scss # 課程頁樣式
-│ └── _QA.scss # 問答頁樣式
-├── JS/
-│ └── all.js # Nav 高亮、Mailchimp + SweetAlert2
-├── data/
-│ └── (預留課程 JSON 或其他靜態資料)
-├── image/
-│ ├── bg_index.png
-│ ├── bg_course.png
-│ ├── bg_QA.png
-│ ├── logo.png
-│ └── ... # 其餘圖檔
-└── README.md
+/index.html                             # 首頁（品牌形象與導引）
+/course.html                            # 即將開課介紹頁面
+/QA.html                                # 常見問題頁面
+
+/CSS/style.scss                         # SCSS 主入口（整合各子樣式）
+/CSS/_cssReset.scss                     # 樣式重置設定
+/CSS/_common.scss                       # 共用元件樣式（按鈕、版型等）
+/CSS/_index.scss                        # 首頁專用樣式
+/CSS/_course.scss                       # 課程頁樣式
+/CSS/_QA.scss                           # 問答頁樣式
+
+/JS/all.js                              # 主腳本：導覽列高亮、Mailchimp 表單串接、SweetAlert2 成功提示
+
+/data/mailchimp_page.png                # Mailchimp 後台報表截圖
+/data/mailchimp_text_data.csv           # 匯出聯絡資料 CSV
+
+/image/bg_index.png                     # 首頁背景圖
+/image/bg_course.png                    # 課程頁背景圖
+/image/bg_QA.png                        # QA 頁背景圖
+/image/logo.png                         # 網站 logo
+/image/...                              # 其他圖片與圖示素材
+
+/README.md                              # 專案說明文件（本檔案）
 
 ### 頁面預覽
 #### Mailchimp後台
