@@ -22,12 +22,12 @@
 
 ### 頁面預覽
 #### Mailchimp後台
-說明：indexl.html 與 QA.html 兩個頁面的表單，皆有串接 Mailchimp，測試資料如下
+說明：indexl.html 與 QA.html 兩個頁面的表單，皆有串接 Mailchimp，測試資料詳
 [報表連結](https://github.com/WilliamHsieh615/HexSchoolWebsite/blob/main/data/mailchimp_text_data.csv)
 ![報表頁面](https://github.com/WilliamHsieh615/HexSchoolWebsite/blob/main/data/mailchimp_page.png)
 
 
 ### 使用說明
-1. 下載專案並於本機開啟 `index.html` 即可預覽。
+1. 點擊[作品連結](https://williamhsieh615.github.io/HexSchoolWebsite/)或下載專案並於本機開啟 `index.html` 即可預覽。
 2. 若需串接自己的 Mailchimp 帳號，可至 Mailchimp 設定 Audience，複製嵌入表單程式碼並替換現有 `<form>`。
 3. 所有互動邏輯包含在 `js/all.js`，可自由調整 Swal 樣式或 Swiper 參數。
