@@ -46,8 +46,9 @@ HexSchoolWebsite/
 
 ### 頁面預覽
 #### Mailchimp後台
+說明：indexl.html 與 QA.html 兩個頁面的表單，皆有串接 Mailchimp，測試資料如下
 ![報表頁面](https://github.com/WilliamHsieh615/HexSchoolWebsite/blob/main/data/mailchimp_page.png)
-![報表](https://github.com/WilliamHsieh615/HexSchoolWebsite/blob/main/data/mailchimp_text_data.csv)
+[報表連結](https://github.com/WilliamHsieh615/HexSchoolWebsite/blob/main/data/mailchimp_text_data.csv)
 
 ### 使用說明
 1. 下載專案並於本機開啟 `index.html` 即可預覽。
