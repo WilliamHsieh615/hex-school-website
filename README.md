@@ -10,7 +10,7 @@
 - RWD 響應式設計
 - [Swiper.js](https://swiperjs.com/)（卡片輪播功能）
 - [SweetAlert2](https://sweetalert2.github.io/)（美化彈出提示視窗）
-- Mailchimp（嵌入式行銷表單串接）
+- [Mailchimp](https://mailchimp.com/landers/email-marketing-platform/?ds_c=DEPT_AOC_Google_Search_ROW_EN_Brand_Acquire_Omega_Manual-NE_T3&ds_kids=p81005570474&ds_a_lid=kwd-2285511033&ds_cid=71700000120288589&ds_agid=58700008803527157&gad_source=1&gad_campaignid=21865451006&gbraid=0AAAAADh1Fp2jaG6pjxmJQMsg96K5tlYQJ&gclid=CjwKCAjw6NrBBhB6EiwAvnT_rjo0N6KWVGxlhyII2Qi58w2AbWJpf27z4cYlrY5DDLo6ARWi10pc0hoCQ7UQAvD_BwE&gclsrc=aw.ds)（嵌入式行銷表單串接）
 - 原生 JavaScript – 導覽列 active 及表單提交
 
 ### 核心功能
