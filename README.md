@@ -1,6 +1,6 @@
 # 六角學院形象網站 (HexSchool Website)
 
-🔗 [作品連結](https://williamhsieh615.github.io/HexSchoolWebsite/)
+🔗 [專案連結](https://williamhsieh615.github.io/HexSchoolWebsite/)
 
 ### 專案簡介
 本專案為「六角學院」打造的一頁式品牌形象網站，展現其課程內容、教育理念與視覺風格。網站使用 HTML 與 CSS 切版，並整合 Swiper.js 製作可滑動的課程卡片區塊，搭配 SweetAlert2 呈現互動提示視窗，以及 Mailchimp 表單串接蒐集使用者資料，是一個結合行銷、設計與互動的前端實作專案。
