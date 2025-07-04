@@ -8,8 +8,8 @@
 ### 技術棧
 - HTML5 + SCSS（Sass 預處理）
 - RWD 響應式設計
-- Swiper.js（卡片輪播功能）
-- SweetAlert2（美化彈出提示視窗）
+- [Swiper.js](https://swiperjs.com/)（卡片輪播功能）
+- [SweetAlert2](https://sweetalert2.github.io/)（美化彈出提示視窗）
 - Mailchimp（嵌入式行銷表單串接）
 - 原生 JavaScript – 導覽列 active 及表單提交
 
