@@ -1,3 +1,5 @@
+![banner](https://github.com/WilliamHsieh615/HexSchoolWebsite/blob/main/data/ReadmeBanner.png)
+
 # 六角學院形象網站 (HexSchool Website)
 
 🔗 [專案連結](https://williamhsieh615.github.io/HexSchoolWebsite/)
