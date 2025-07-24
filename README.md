@@ -32,4 +32,4 @@
 ### 使用說明
 1. 點擊[作品連結](https://williamhsieh615.github.io/HexSchoolWebsite/)或下載專案並於本機開啟 `index.html` 即可預覽。
 2. 若需串接自己的 Mailchimp 帳號，可至 Mailchimp 設定 Audience，複製嵌入表單程式碼並替換現有 `<form>`。
-3. 所有互動邏輯包含在 `js/all.js`，可自由調整 Swal 樣式或 Swiper 參數。
+3. 所有互動邏輯包含在 `JS/all.js`，可自由調整 Swal 樣式或 Swiper 參數。
