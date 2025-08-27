@@ -1,8 +1,8 @@
-![banner](https://github.com/WilliamHsieh615/HexSchoolWebsite/blob/main/data/ReadmeBanner.png)
+![banner](https://github.com/WilliamHsieh615/hex-school-website/blob/main/data/ReadmeBanner.png)
 
 # 六角學院形象網站 (HexSchool Website)
 
-🔗 [專案連結](https://williamhsieh615.github.io/HexSchoolWebsite/)
+🔗 [專案連結](https://williamhsieh615.github.io/hex-school-website/)
 
 ## 專案簡介
 本專案為「六角學院」打造的一頁式品牌形象網站，展現其課程內容、教育理念與視覺風格。網站使用 HTML 與 CSS 切版，並整合 Swiper.js 製作可滑動的課程卡片區塊，搭配 SweetAlert2 呈現互動提示視窗，以及 Mailchimp 表單串接蒐集使用者資料，是一個結合行銷、設計與互動的前端實作專案。
@@ -25,11 +25,11 @@
 ## 頁面預覽
 ### Mailchimp後台
 說明：indexl.html 與 QA.html 兩個頁面的表單，皆有串接 Mailchimp，測試資料詳
-[報表連結](https://github.com/WilliamHsieh615/HexSchoolWebsite/blob/main/data/mailchimp_text_data.csv)
-![報表頁面](https://github.com/WilliamHsieh615/HexSchoolWebsite/blob/main/data/mailchimp_page.png)
+[報表連結](https://github.com/WilliamHsieh615/hex-school-website/blob/main/data/mailchimp_text_data.csv)
+![報表頁面](https://github.com/WilliamHsieh615/hex-school-website/blob/main/data/mailchimp_page.png)
 
 
 ## 使用說明
-1. 點擊[作品連結](https://williamhsieh615.github.io/HexSchoolWebsite/)或下載專案並於本機開啟 `index.html` 即可預覽。
+1. 點擊[作品連結](https://williamhsieh615.github.io/hex-school-website/)或下載專案並於本機開啟 `index.html` 即可預覽。
 2. 若需串接自己的 Mailchimp 帳號，可至 Mailchimp 設定 Audience，複製嵌入表單程式碼並替換現有 `<form>`。
 3. 所有互動邏輯包含在 `JS/all.js`，可自由調整 Swal 樣式或 Swiper 參數。
